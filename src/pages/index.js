@@ -21,7 +21,7 @@ class HomeIndex extends React.Component {
 
                     <section id="one">
                         <header className="major">
-                            <h2>Hey there! 👋 </h2>
+                            <h2>Hey there! </h2>
                         </header>
                         <p>Personal website of Shreyas Prakash<br />Integrated with <a href="https://conradlin.com/blog/posts/host-gatsbyjs-blog-with-notion-cms-and-netlify-for-free/" target="_blank">notion</a> as a CMS for demonstration purposes by <a href="https://conradlin.com" target="_blank">Conrad Lin</a></p>
                         <ul className="actions">
