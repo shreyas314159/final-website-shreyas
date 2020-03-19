@@ -21,12 +21,30 @@ class HomeIndex extends React.Component {
 
                     <section id="one">
                         <header className="major">
-                            <h2>Hey there! </h2>
+                            <h1>Hey there! 👋 </h1>
                         </header>
-                        <p>Personal website of Shreyas Prakash<br />Integrated with <a href="https://conradlin.com/blog/posts/host-gatsbyjs-blog-with-notion-cms-and-netlify-for-free/" target="_blank">notion</a> as a CMS for demonstration purposes by <a href="https://conradlin.com" target="_blank">Conrad Lin</a></p>
-                        <ul className="actions">
-                            <li><a href="https://www.youtube.com/watch?v=dMYKXVf88J0" target="_blank" className="button">Learn More</a></li>
-                        </ul>
+
+                        <p>
+                        I'm Shreyas Prakash and I'm an electronics engineer turned design researcher turned social entrepreneur. 
+                        </p>
+
+                        <p>
+                        I have been interested in everything <em>designerly</em> so far, exploring crossroads of how design thinking could make an impact in education and social upliftment through my non profit organisation, <a href="https://dhivelabs.org/">d.Hive Labs</a>. I also host a <a href="ss">Shake Up The World</a> podcast where I interview founders of social initiatives literally shaking up the world through their impact.
+                        </p>
+
+                        <p>
+                        Be the first to be notified with my personal write-ups, ruminations on interesting non-fictions, podcasts, 'interesting-stuff-from-the-internet' kinds with <em>skin-in-game</em> (which I personally chew, digest and recommend) by subscribing to my mailing list. I send these once a month, and I wont spam you. Ever.
+                        </p>
+
+                        <div className="8u 12u$(small)">
+                               
+                               <ul className="actions">
+                                   
+                                   <li><a href="http://eepurl.com/gWCvm5" className="button">Subscribe</a></li>
+                               </ul>
+                           </div>
+                        
+                        
                     </section>
 
                     <section id="two">
