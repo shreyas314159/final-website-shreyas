@@ -36,26 +36,20 @@ class HomeIndex extends React.Component {
                         Be the first to be notified with my personal write-ups, ruminations on interesting non-fictions, podcasts, interesting-stuff-from-the-internet kinds with <em>skin-in-game</em> (which I personally chew, digest and then recommend) by subscribing to my <a href="http://eepurl.com/gWCvm5">mailing list</a>! I send these once a month, and I wont spam you. Ever.
                         </p>
 
-                        <div className="8u 12u$(small)">
+                        <div className="12u 12u$(small)">
                                
                                <ul className="actions">
                                    
                                    <li><a href="http://eepurl.com/gWCvm5" className="button">Subscribe 🌟</a></li>
+                                   <li><Link to={`blog`} className="button">All Articles <span role="img" aria-label="coffee">☕</span></Link></li>
+                            <li><Link to={`subscribe`} className="button">Design Works<span role="img" aria-label="lightning">⚡</span> </Link></li>
                                </ul>
                            </div>
                         
                         
                     </section>
 
-                    <section id="two">
-                        <h2>Recent Sharing</h2>
-
-                        <ul className="actions">
-                            <li><Link to={`blog`} className="button">All Articles <span role="img" aria-label="coffee">☕</span></Link></li>
-                            <li><Link to={`subscribe`} className="button">All Newsletters <span role="img" aria-label="paper">📰</span> </Link></li>
-                            <li><Link to={`blog`} className="button">Design Works<span role="img" aria-label="lightning">⚡</span> </Link></li>
-                        </ul>
-                    </section>
+                    
 
                     <section id="three">
                         <h2>Get In Touch</h2>

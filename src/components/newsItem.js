@@ -10,6 +10,8 @@ export default ({ data }) => {
     return (
         <div style={{ margin: 10 }}>        
             <Link to={`subscribe/posts/${url}/`}>
+            <h2>{title}</h2>
+            <div style = {{color: "grey"}}>Tags: {tags && tags.join(', ')}</div>
                 <img 
 
                 alt={`${title} cover image`}
@@ -19,8 +21,8 @@ export default ({ data }) => {
                 src={coverimageURL}
 
               />
-            <h2>{title}</h2>
-              <div style = {{color: "grey"}}>Tags: {tags && tags.join(', ')} • Published: {publish_date} • {read_time} MIN READ</div>
+            
+              
               
               <p style = {{ color: "black" }} dangerouslySetInnerHTML={{ __html: desc }}></p>
             </Link>
