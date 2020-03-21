@@ -16,7 +16,7 @@ export default ({ data }) => {
 
     return (
 
-        <div style={{ margin: 10 }}>        
+        <div style={{ margin: 60 }}>        
 
             <Link to={`blog/posts/${url}/`}>
 
@@ -35,6 +35,9 @@ export default ({ data }) => {
               <h2>{title}</h2>
 
               <p style = {{ color: "black" }} dangerouslySetInnerHTML={{ __html: desc }}></p>
+              <br/>
+
+              
 
             </Link>
 
