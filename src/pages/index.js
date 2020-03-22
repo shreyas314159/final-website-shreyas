@@ -4,6 +4,7 @@ import { Link } from "gatsby";
 
 import Layout from '../components/layout'
 
+
 class HomeIndex extends React.Component {
 
     render() {
@@ -57,29 +58,19 @@ class HomeIndex extends React.Component {
                         
                         <div className="row">
                             <div className="8u 12u$(small)">
-                                <form name="contact" method="post" action="#" data-netlify="true">
+                            <form method="post" netlify-honeypot="bot-field" data-netlify="true">
+                            <input type="hidden" name="bot-field" />
+                                
                                     <div className="row uniform 50%">
                                         <div className="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
                                         <div className="6u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
                                         <div className="12u"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
                                     </div>
-                                </form>
-                                <ul className="actions">
+                                    <br/>
+                                    <ul className="actions">
                                     <li><input type="submit" value="Send Message" /></li>
                                 </ul>
-                            </div>
-                            </div>
-                        
-                        <div className="row">
-                            <div className="8u 12u$(small)">
-                            <ul className="icons">
-
-                            <li><a href="https://github.com/conradlin" target="_blank" className="icon fa-linkedin"><span className="label">Linkedin</span></a></li>
-                        <li><a href="https://twitter.com/cryptolin" target="_blank" className="icon fa-instagram"><span className="label">Instagram</span></a></li>
-                        <li><a href="http://eepurl.com/gWCvm5" target="_blank" className="icon fa-envelope-o"><span className="label">Email</span></a></li>
-                         
-                    </ul>
-                               
+                                </form>
                                 
                             </div>
                             <div className="4u 12u$(small)">
@@ -99,7 +90,9 @@ class HomeIndex extends React.Component {
                                 </ul>
                                 
                             </div>
-                        </div>
+                            </div>
+                        
+                        
                     </section>
 
                 </div>
