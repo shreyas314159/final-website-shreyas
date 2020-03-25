@@ -43,7 +43,7 @@ class HomeIndex extends React.Component {
                                    
                                    <li><a href="http://eepurl.com/gWCvm5" className="button">Subscribe 🌟</a></li>
                                    <li><Link to={`blog`} className="button">All Articles <span role="img" aria-label="coffee">☕</span></Link></li>
-                            <li><Link to={`subscribe`} className="button">Design Works<span role="img" aria-label="lightning">⚡</span> </Link></li>
+                            <li><Link to={`subscribe`} className="button">Creative works<span role="img" aria-label="lightning">⚡</span> </Link></li>
                                </ul>
                            </div>
                         
