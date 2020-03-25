@@ -8,8 +8,8 @@ class Footer extends React.Component {
                 
                     <ul className="copyright">
                         
-                        <li><font color ="#00000">&copy; Shreyas Prakash 2020</font></li>
-                        <li><font color ="#00000">| Powered by Gatsby</font></li>
+                        <li>&copy; Shreyas Prakash 2020</li>
+                        <li>| Powered by Gatsby</li>
                     </ul>
                     
                 </div>
