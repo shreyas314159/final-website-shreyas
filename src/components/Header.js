@@ -10,7 +10,7 @@ class Header extends React.Component {
                 <div className="inner">
                     <Link to="/" className="image avatar"><img src={avatar} alt="" /></Link>
                     
-                    <h1>My latest blog on <strong><a href="/blog/posts/practise-manifesto/"><font color = "#00FF00"><mark>Design Practise Manifesto</mark></font></a></strong>  </h1>
+                    <h1><font color="#000000">My latest blog on</font> <strong><a href="/blog/posts/practise-manifesto/"><font color = "#00FF00"><mark>Design Practise Manifesto</mark></font></a></strong>  </h1>
                 </div>
                
                         
