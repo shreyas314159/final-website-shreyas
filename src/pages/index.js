@@ -88,6 +88,13 @@ class HomeIndex extends React.Component {
                                         <a href="#">shreyas314159@gmail.com</a>
                                     </li>
                                 </ul>
+                                <ul className="icons">
+
+<li><a href="https://github.com/conradlin" target="_blank" className="icon fa-linkedin"><span className="label">Linkedin</span></a></li>
+<li><a href="https://twitter.com/cryptolin" target="_blank" className="icon fa-instagram"><span className="label">Instagram</span></a></li>
+<li><a href="http://eepurl.com/gWCvm5" target="_blank" className="icon fa-envelope-o"><span className="label">Email</span></a></li>
+
+</ul>
                                 
                             </div>
                             </div>
